@@ -1,0 +1,16 @@
+/*body {
+  background: url(http://image.basekit.com/bkpam299873_grass-fed-cow-europe_1155.jpg) no-repeat;
+  background-size: cover;
+  width:100%;
+ }
+.row {
+  border:red 1px solid;
+}
+
+.col-md-2 {
+  /*border: red 1px solid;*/
+}
+
+.big-font {
+  font-size: 19px;
+}*/

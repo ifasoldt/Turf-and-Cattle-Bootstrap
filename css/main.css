@@ -1,0 +1,35 @@
+body {
+  background: url(http://image.basekit.com/bkpam299873_grass-fed-cow-europe_1155.jpg) no-repeat;
+  background-size: 100vw;
+ }
+
+.container * {
+  font-family:Helvetica;
+}
+.row {
+  border:red 1px solid;
+}
+
+.header-font {
+  font-size: 16px;
+  color:#5D220A;
+}
+
+#search {
+  width:17px
+}
+
+.title-font {
+  margin-top: 30vw;
+  margin-bottom:0;
+  color:white;
+  font-family: Courier New;
+  font-size: 4.4vw;
+  line-height:1;
+}
+
+.subscript-font {
+  color: white;
+  font-family:Courier New;
+  font-size: 1.3vw;
+}
