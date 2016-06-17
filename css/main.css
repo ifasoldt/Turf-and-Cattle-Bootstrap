@@ -3,11 +3,20 @@ body {
   background-size: 100vw;
  }
 
+ .couriernew {
+   font-family: Courier New;
+ }
+
 .container * {
   font-family:Helvetica;
 }
-.row {
+/*.row {
   border:red 1px solid;
+}*/
+
+#logo {
+  border-radius: 100%;
+  width: 10%;
 }
 
 .header-font {
@@ -27,6 +36,10 @@ body {
 
 .bigrow {
   margin-top: 5vw;
+}
+
+.font-kern {
+  font-stretch:
 }
 
 .almostbigrow {
@@ -52,6 +65,10 @@ body {
   margin-bottom: 0;
 }
 
+.some-pad-top {
+  padding-top: 3vw;
+}
+
 .img-extra-rounded {
   border-radius: 100%;
   width:20%;
@@ -63,7 +80,11 @@ body {
 }
 
 .lightgrey {
-  color:lightgrey;
+  color:lightgrey
+}
+
+#date {
+  padding-top:.7vw;
 }
 
 h1 {
@@ -100,4 +121,54 @@ btn-sm {
 
 .img-rounded {
   border-radius: 100%
+}
+
+a {
+  color:grey;
+}
+
+a:hover {
+  color:lightgrey;
+}
+
+.margin-bot{
+  margin-bottom: 0;
+}
+
+.padding-sides {
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.top-border {
+border-top: #591D0A 2px solid;
+}
+
+.top-pad {
+  padding-top: 5vw;
+}
+
+.uniform-height {
+  width:100%;
+  height: 20vw;
+  object-fit: cover;
+}
+
+#longhorn {
+  object-position: 0%;
+}
+
+.no-side-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.relative-up {
+  color:white;
+  text-align: right;
+  position:relative;
+  top:-20vw;
+  left:0;
+  padding-right: 2vw;
+  padding-top: 15vw;
 }
