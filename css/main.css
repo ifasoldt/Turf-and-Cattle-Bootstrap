@@ -6,25 +6,39 @@ body {
 .container * {
   font-family:Helvetica;
 }
-.row {
+/*.row {
   border:red 1px solid;
-}
+}*/
 
 .header-font {
   font-size: 16px;
   color:#5D220A;
+  font-family: Courier New;
+  font-weight: bold;
 }
 
 #search {
   width:17px
 }
 
-.title-font {
+.biggerrow {
   margin-top: 30vw;
+}
+
+.bigrow {
+  margin-top: 5vw;
+}
+
+.almostbigrow {
+  margin-top: 2.5vw;
+}
+
+.title-font {
+  /*margin-top: 30vw;*/
   margin-bottom:0;
   color:white;
   font-family: Courier New;
-  font-size: 4.4vw;
+  font-size: 4.0vw;
   line-height:1;
 }
 
@@ -32,4 +46,45 @@ body {
   color: white;
   font-family:Courier New;
   font-size: 1.3vw;
+}
+
+.small-margin {
+  margin-bottom: 0;
+}
+
+.img-rounded {
+  border-radius: 100%;
+  width:20%;
+  display:inline-block;
+}
+
+.bahia {
+  color:#9CD200;
+}
+
+.lightgrey {
+  color:lightgrey;
+}
+
+h1 {
+  font-size:6vw;
+}
+
+.pad-right {
+  padding-right: 6vw;
+}
+
+#bigtext {
+  border-left: 3px solid #591D0A;
+  margin-left: 2vw;
+  padding-left: 3vw;
+  color: #9CD200;
+}
+
+.background-gray {
+  background-color: gray;
+}
+
+.background-green {
+  background-color: #9CD200;
 }
