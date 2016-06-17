@@ -6,9 +6,9 @@ body {
 .container * {
   font-family:Helvetica;
 }
-/*.row {
+.row {
   border:red 1px solid;
-}*/
+}
 
 .header-font {
   font-size: 16px;
@@ -52,7 +52,7 @@ body {
   margin-bottom: 0;
 }
 
-.img-rounded {
+.img-extra-rounded {
   border-radius: 100%;
   width:20%;
   display:inline-block;
@@ -87,4 +87,17 @@ h1 {
 
 .background-green {
   background-color: #9CD200;
+}
+
+btn-sm {
+  margin-right: 2px;
+}
+
+.img-center {
+  margin: 0 auto;
+  display:block;
+}
+
+.img-rounded {
+  border-radius: 100%
 }
