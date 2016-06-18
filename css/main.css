@@ -26,7 +26,7 @@ body {
   font-weight: bold;
 }
 
-#about {
+.header-link-color {
   color:#5D220A;
 }
 
@@ -36,6 +36,12 @@ body {
 
 .biggerrow {
   margin-top: 30vw;
+}
+
+@media(max-width: 992px) {
+  .biggerrow {
+    margin-top:20vw;
+  }
 }
 
 .bigrow {
@@ -99,6 +105,14 @@ h1 {
   padding-right: 6vw;
 }
 
+.button-color {
+  color:inherit;
+}
+
+.button-color:hover{
+  text-decoration: none;
+}
+
 #bigtext {
   border-left: 3px solid #591D0A;
   margin-left: 2vw;
@@ -116,6 +130,10 @@ h1 {
 
 btn-sm {
   margin-right: 2px;
+}
+
+.glyphicon {
+  text-align: left;
 }
 
 .img-center {
