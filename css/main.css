@@ -44,6 +44,19 @@ body {
   }
 }
 
+@media(max-width: 550px) {
+  .biggerrow {
+    margin-top:12vw;
+  }
+}
+@media(max-width: 350px) {
+  .biggerrow {
+    margin-top:8vw;
+  }
+}
+
+
+
 .bigrow {
   margin-top: 5vw;
 }
