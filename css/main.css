@@ -202,10 +202,10 @@ border-top: #591D0A 2px solid;
   color:white;
   text-align: right;
   position:relative;
-  top:-5vw;
+  top:-65px;
   left:0;
   padding-right: 2vw;
-  margin-bottom:-5vw;
+  margin-bottom:-65px;
 }
 
 .relative-up:hover {
@@ -257,4 +257,47 @@ li {
   color: white;
   padding-top: 2.3vw;
   font-size: 12px;
+}
+
+@media(max-width: 992px) {
+  .xs-left{
+    text-align: left;
+  }
+}
+
+@media(max-width: 992px) {
+  .xs-no-margin-left{
+    margin-left: 0;
+  }
+}
+@media(max-width: 992px) {
+  .header-link-color{
+    color: white;
+  }
+}
+
+#add {
+  text-align: right;
+}
+
+@media(max-width: 992px) {
+  #add {
+    text-align: left;
+  }
+}
+
+@media(max-width: 992px) {
+   .xs-no-side-padding{
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media(max-width: 590px) {
+   .btn-sm{
+     font-size: 2vw;
+  }
+}
+
+.link-white:link{
+  color:white;
 }
